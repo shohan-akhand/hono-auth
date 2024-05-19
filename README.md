@@ -1,11 +1,14 @@
 To install dependencies:
 ```sh
-bun install
+npm create hono@latest
+npm install -g bun
+npm install bcryptjs
+npm install
 ```
 
 To run:
 ```sh
-bun run dev
+npm run dev
 ```
 
 open http://localhost:3000
